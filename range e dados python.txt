@@ -1,12 +1,12 @@
->>> resposta = "repetir" >>> while resposta == "repetir": ... print "Oi, estamos dentro do while" ... resposta = raw_input("Digite repetir para começar novamente: ") ... Oi, estamos dentro do while Digite repetir para começar novamente: repetir Oi, estamos dentro do while Digite repetir para começar novamente: tchau!
+>>> resposta = "repetir" >>> while resposta == "repetir": ... print "Oi, estamos dentro do while" ... resposta = raw_input("Digite repetir para comeÃ§ar novamente: ") ... Oi, estamos dentro do while Digite repetir para comeÃ§ar novamente: repetir Oi, estamos dentro do while Digite repetir para comeÃ§ar novamente: tchau!
 
->>> valores=[111,222,333,444,555] >>> for valor in valores: print "O valor é: ", valor O valor é: 111 O valor é: 222 O valor é: 333 O valor é: 444 O valor é: 555
+>>> valores=[111,222,333,444,555] >>> for valor in valores: print "O valor Ã©: ", valor O valor Ã©: 111 O valor Ã©: 222 O valor Ã©: 333 O valor Ã©: 444 O valor Ã©: 555
 
-Função Range()
+FunÃ§Ã£o Range()
 
-Esta função é muito importante quando queremos gerar uma lista de números. Sua sintaxe é:
+Esta funÃ§Ã£o Ã© muito importante quando queremos gerar uma lista de nÃºmeros. Sua sintaxe Ã©:
 
-range(ni,nf,i) onde ni = número inicial, nf = número final e i = incremento.
+range(ni,nf,i) onde ni = nÃºmero inicial, nf = nÃºmero final e i = incremento.
 Veja um exemplo:
 
 >>> range(1,10)
@@ -52,8 +52,3 @@ valor atual 2
 >>> c3 = c()
 >>> print "valor atual", c3.getcount()
 valor atual 3
-E assim finalizamos os artigos de Introdução ao Python. Espero que tenham gostado e conto com sua opinião sugerindo melhorias, novos artigos e tirar as suas dúvidas!
-
-
-
-Read more: http://www.linhadecodigo.com.br/artigo/588/introducao-ao-python-parte-4.aspx#ixzz61sejtY9M
